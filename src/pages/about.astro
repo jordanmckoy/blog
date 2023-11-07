@@ -2,7 +2,7 @@
 import {getEntry} from "astro:content"
 import AuthorLayout from "@/layouts/AuthorLayout.astro";
 
-const author = await getEntry('authors', 'default')
+const author = await getEntry('authors', 'tropic')
 const {Content} = await author.render();
 ---
 

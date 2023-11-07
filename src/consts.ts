@@ -4,27 +4,24 @@
  * A few of these are not used yet, and are subject to change, example of this is Author.
  */
 export const SITE_METADATA = {
-    title: 'Astro Starter Blog',
-    headerTitle: 'Astro Starter Blog',
-    description: 'A blog created with Astro and Tailwind.css',
+    title: 'TropicTheDev Blog',
+    headerTitle: 'TropicTheDev Blog',
+    description: 'A blog where I post random stuff about my life and my projects.',
     language: 'en-us',
     theme: 'system', // Options: system, light, dark, Does not work yet
-    siteUrl: 'https://astro-starter-blog.yon.fun/',
-    siteRepo: 'https://github.com/wanoo21/tailwind-astro-starting-blog',
+    siteUrl: 'https://blog.jmckoy.com',
+    siteRepo: 'https://astro.build/themes/details/astro-starter-blog/',
     siteLogo: '/static/images/logo.png',
     socialBanner: '/static/images/twitter-card.png',
     locale: 'en-US',
 
     // The following are subject to change. They are placeholders for now.
     // This project provide a default author content see src/content/authors/default.mdx, so these details are better to be inserted there.
-    author: 'John Doe',
-    mastodon: 'https://mastodon.social/@mastodonuser',
-    email: 'address@yoursite.com',
-    github: 'https://github.com',
-    twitter: 'https://twitter.com/Twitter',
-    facebook: 'https://facebook.com',
-    youtube: 'https://youtube.com',
-    linkedin: 'https://www.linkedin.com',
+    author: 'TropicTheDev',
+    email: 'jordan.bmp.mckoy@gmail.com',
+    github: 'https://github.com/tropicdev/',
+    twitter: 'https://twitter.com/tropicthedev',
+    linkedin: 'https://www.linkedin.com/in/jordan-bmp-mckoy/',
 
     // These are not supported yet
     // analytics: {
@@ -103,9 +100,7 @@ export const SITE_METADATA = {
 export const ITEMS_PER_PAGE = 5;
 
 export const NAVIGATION = [
-    {href: '/', title: 'Home'},
-    {href: '/blog', title: 'Blog'},
-    {href: '/tags', title: 'Tags'},
-    {href: '/projects', title: 'Projects'},
-    {href: '/about', title: 'About'},
+    { href: '/', title: 'Home' },
+    { href: '/blog', title: 'Blog' },
+    { href: '/about', title: 'About' },
 ]

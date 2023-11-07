@@ -1,4 +1,4 @@
-import {defineCollection, reference, z} from 'astro:content';
+import { defineCollection, reference, z } from 'astro:content';
 
 const authors = defineCollection({
     type: 'content',
@@ -25,7 +25,7 @@ const blog = defineCollection({
         draft: z.boolean().default(false),
         summary: z.string().optional(),
         images: z.string().optional(),
-        authors: z.array(reference('authors')).default(['default']),
+        authors: z.array(reference('authors')).default(['tropic']),
         // TODO: Add support for tags-and-list layout
         layout: z.enum(['list', 'tags-and-list']).default('list'),
         bibliography: z.string().optional(),
@@ -46,4 +46,4 @@ const tags = defineCollection({
     }),
 });
 
-export const collections = {blog, authors, tags};
+export const collections = { blog, authors, tags };
