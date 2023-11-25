@@ -3,7 +3,7 @@
     onMount(() => {
         const s = document.createElement('script')
         const tag = document.getElementById('utterances')
-        s.setAttribute('repo',"tropicdev/blog")
+        s.setAttribute('repo',"jordanmckoy/blog")
         s.setAttribute('issue-term',"pathname")
         s.setAttribute('label',"comments")
         s.setAttribute('theme',"preferred-color-scheme")
